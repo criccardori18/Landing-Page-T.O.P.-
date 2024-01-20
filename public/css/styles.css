@@ -83,3 +83,43 @@ body {
     width: 580px;
     max-height: 80%;
 }
+#information-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.information-container {
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information-container .inf-wrapper {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information-container .inf-item {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information-container .inf-item p {
+    text-align: center;
+}
+
+.information-container img {
+    border: solid  #3882F6 7px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 22px;
+}
