@@ -49,7 +49,7 @@ body {
 
 .hero-text h1 {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 9000;
     color: #F9FAF8;
     margin-bottom: 0;
 }
@@ -114,6 +114,8 @@ body {
 
 .information-container .inf-item p {
     text-align: center;
+    font-size: 18px;
+    margin: 5px 35px;
 }
 
 .information-container img {
@@ -122,4 +124,27 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 22px;
+}
+
+
+.quote-container {
+    height: 450px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 515px;
+}
+
+#quote-author {
+    margin-left: 650px;
+    font-weight: bold;
+    font-size: 18px;
 }
